@@ -13,7 +13,9 @@ namespace CoreSenderApp
         static IQueueClient queueClient;
         public static async Task Main(string[] args)
         {
-            
+            //Test
+            int i = 0;
+            int fdsfdsf;
             const int numberOfMessages = 10;
             queueClient = new QueueClient(ServiceBusConnectionString, QueueName);
 
